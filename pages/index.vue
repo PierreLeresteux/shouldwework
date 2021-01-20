@@ -2,9 +2,7 @@
   <div class="container">
     <div>
       <logo />
-      <h1 class="title">
-        Should we work today ?
-      </h1>
+      <question />
       <h2 class="subtitle">
         The answer is NO
       </h2>
@@ -14,10 +12,12 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
+import Question from '~/components/Question.vue'
 
 export default {
   components: {
-    Logo
+    Logo,
+    Question
   }
 }
 </script>
@@ -32,15 +32,7 @@ export default {
   text-align: center;
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
+
 
 .subtitle {
   font-weight: 300;
