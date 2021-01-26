@@ -1,9 +1,10 @@
 <template>
   <div class="container">
     <div>
-      <logo />
+      <img src="https://i.imgur.com/HXucnOl.gif" />
       <question />
       <no />
+      <why />
     </div>
   </div>
 </template>
@@ -12,12 +13,14 @@
 import Logo from '~/components/Logo.vue'
 import Question from '~/components/Question.vue'
 import No from '~/components/No.vue'
+import Why from '~/components/Why.vue'
 
 export default {
   components: {
     Logo,
     Question,
     No,
+    Why,
   }
 }
 </script>
