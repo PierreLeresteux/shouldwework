@@ -10,7 +10,9 @@
     "start": "nuxt start"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "@nuxt/http": "^0.5.1",
+    "nuxt": "^2.0.0",
+    "ohmyfetch": "^0.1.6"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"

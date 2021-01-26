@@ -5,6 +5,7 @@
       <question />
       <no />
       <why />
+      <funfact />
     </div>
   </div>
 </template>
@@ -14,6 +15,7 @@ import Logo from '~/components/Logo.vue'
 import Question from '~/components/Question.vue'
 import No from '~/components/No.vue'
 import Why from '~/components/Why.vue'
+import Funfact from '~/components/Funfact.vue'
 
 export default {
   components: {
@@ -21,6 +23,7 @@ export default {
     Question,
     No,
     Why,
+    Funfact,
   }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <div class="why">{{ why }}{{ funfact }}</div>
+    <div class="why">{{ why }}</div>
 </template>
 
 <style>
@@ -16,8 +16,7 @@
 
 <script>
 export default {
-
- data({ $http }) {
+  data() {
         //const date = new Date(2021,0,23);  
         const date = new Date();
         var day = date.getDate();
@@ -33,11 +32,10 @@ export default {
             }
         }
         //const funfact = $http.get('https://api.nuxtjs.dev/mountains')
-
+        
         //http://numbersapi.com/1/25/date
 
-        return { why:why };
+        return { why:why, funfact:"" };
     },
-    
 }
 </script>
